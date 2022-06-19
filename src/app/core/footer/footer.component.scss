@@ -1,0 +1,38 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+div{
+    width: 100vw;
+    height: 10vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 8px solid yellow;
+
+    h3{
+
+        font-family: 'Pacifico', cursive;
+        font-weight:900;
+        font-size: 2rem;
+        text-transform: capitalize;
+        
+
+    
+    }
+
+    p{
+        font-size: large;
+
+        &:hover{
+            color: yellow;
+            font-weight: 500;
+            font-size: xx-large;
+        }
+    }
+
+
+}
+

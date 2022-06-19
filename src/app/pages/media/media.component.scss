@@ -1,0 +1,32 @@
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contendor {
+  background-image: url(../../../assets/pngwing.com.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 832px;
+  height: 517px;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  
+  iframe {
+    width: 264px;
+    height: 182px;
+    margin-top: 182px;
+    border-radius: 32px;
+  }
+
+  p {
+    font-size: x-large;
+
+    margin-top: 39px;
+  }
+}

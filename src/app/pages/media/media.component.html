@@ -1,0 +1,27 @@
+<section>
+
+
+
+<!-- <img src="../../../assets/pngwing.com.png" alt="tocadiscos"> -->
+
+<div class="contendor">
+
+  <p>{{unDisco.title}}</p>
+
+<iframe *ngIf ="unDisco"
+   
+    [src]="unDisco.song | safe"
+   
+  
+    frameBorder="0"
+    allowfullscreen=""
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+  ></iframe>
+
+</div>
+
+</section>
+
+
+
+ 

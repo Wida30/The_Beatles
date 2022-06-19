@@ -1,0 +1,28 @@
+<section *ngIf="discos.length">
+
+  
+  <div class="buscador">
+    <label for="busqueda">Find your album</label>
+    <input type="text" [(ngModel)]="filter" (ngModelChange)="onChangeFilter($event)" />
+    
+</div>
+
+  <div class="section">
+    <app-disco
+      *ngFor="let disco of filteredList"
+      [disco]="disco"
+      routerLink="{{ disco.id }}"
+    >
+      <p>{{disco}}</p></app-disco
+    >
+    </div>
+</section>
+
+  <!-- </div>
+  <h2>This is the country list</h2>
+<div>
+  <h4 *ngFor="let country of filteredList">{{ country }}</h4>
+</div>
+
+<h3>Change the filter by writing here ⬇️</h3>
+<input type="text" [(ngModel)]="filter" (ngModelChange)="onChangeFilter($event)" /> -->

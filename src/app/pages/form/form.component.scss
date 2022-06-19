@@ -1,0 +1,110 @@
+
+
+.abuelo{
+    
+    display: flex;
+    width: 600px;
+    gap: 100px;
+   
+    
+    &:hover{
+        transform: scale(1.1);
+        transition: 0.5s;}
+    
+    
+    & div{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: x-large;
+        & h3{
+            text-decoration: underline yellow;
+        }
+        
+    }
+}
+.img2{
+    width: 100px;
+    height: 100px;
+}
+.img1{
+    width:300px;
+    height:300px;
+    margin-top: 50px;
+    border-radius: 50%;
+    transition: 20s;
+    &:hover{
+        transform: rotate(360deg);
+      
+
+    }
+}
+section{
+    display: flex;
+    justify-content: space-around;
+   
+    flex-wrap: wrap;
+    background-image: linear-gradient(rgba(218, 193, 193, 0.5), rgba(230, 213, 213, 0.5)), url("https://www.economiadigital.es/tendenciashoy/wp-content/uploads/2021/08/Studio2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    align-items: center;
+    background-attachment: fixed;
+    
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    font-size: xx-large;
+    & h2{
+         border-bottom-style: solid;
+         border-color: yellow;
+         border-bottom-width: 5px;
+         padding-bottom: 0.7%;
+         width: fit-content;
+         margin-bottom: 2%
+         
+        
+    }
+    & label{
+        margin-left: 10px;
+    }
+    & input{
+        margin-bottom: 10px;
+        font-size: x-large;
+        padding: 10px;
+        border-radius: 20px;
+        &:focus{
+            outline: yellow solid 4px;
+            border: none;
+        }
+
+        
+
+    }
+    
+}
+.buttons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 3rem;
+    & button{
+        width: 40%;
+        height: 100%;
+        font-size: x-large;
+        border-radius: 20px;
+        background-color: lightyellow;
+        &:hover{
+            outline: yellow solid 4px;
+            border: none;
+        }
+
+    }
+}
